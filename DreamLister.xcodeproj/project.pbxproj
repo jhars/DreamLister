@@ -22,6 +22,7 @@
 		77729FFB1DB68F2100B41D32 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77729FF31DB68F2100B41D32 /* ItemType+CoreDataClass.swift */; };
 		77729FFC1DB68F2100B41D32 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77729FF41DB68F2100B41D32 /* ItemType+CoreDataProperties.swift */; };
 		7772A0011DB6967A00B41D32 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7772A0001DB6967A00B41D32 /* MaterialView.swift */; };
+		7772A0031DB699B000B41D32 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7772A0021DB699B000B41D32 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		77729FF31DB68F2100B41D32 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
 		77729FF41DB68F2100B41D32 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7772A0001DB6967A00B41D32 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		7772A0021DB699B000B41D32 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				7772A0001DB6967A00B41D32 /* MaterialView.swift */,
+				7772A0021DB699B000B41D32 /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7772A0031DB699B000B41D32 /* ItemCell.swift in Sources */,
 				77729FF81DB68F2100B41D32 /* Item+CoreDataProperties.swift in Sources */,
 				77729FF71DB68F2100B41D32 /* Item+CoreDataClass.swift in Sources */,
 				77729FFB1DB68F2100B41D32 /* ItemType+CoreDataClass.swift in Sources */,
